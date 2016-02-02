@@ -1,0 +1,6 @@
+- npm install -g cordova
+- npm install
+- npm install tsd -g
+-- tsd install
+- npm install bower -g
+- bower install 
