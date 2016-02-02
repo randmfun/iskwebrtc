@@ -19,6 +19,6 @@ angular.module('CourseService', []).factory('Course', ['$http', function($http) 
         delete : function(id) {
             return $http.delete('/api/courses/' + id);
         }
-    }       
+    };       
 
 }]);
